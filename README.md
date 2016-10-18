@@ -6,7 +6,7 @@ $("#test1").click(function(){
 	$(this).fmess({
         text: "Текст сообщения",
         type: "success", //тип сообщения success, info, warning, danger
-        direction: "top", //возможны варианты top, right, bottom, left
+        direction: "top", //положение подсказки - возможны варианты top, right, bottom, left
         time: 1500, // время анимации
         distance: 100 //расстояние для анимации
     });
