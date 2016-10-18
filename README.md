@@ -7,7 +7,8 @@ $("#test1").click(function(){
         text: "Текст сообщения",
         type: "success", //тип сообщения success, info, warning, danger
         direction: "top", //возможны варианты top, right, bottom, left
-        time: 1500
+        time: 1500 // скорость в мл. сек.
+	distance: 100 // расстояние полета
     });
 
 });
