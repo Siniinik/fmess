@@ -32,6 +32,8 @@ $.fn.fmess = function(options) {
     mess.text(settings.text);
     var mess_h = mess.outerHeight();
     var mess_w = mess.outerWidth();
+    mess.css("width", mess_w+"px");
+
     var finish = mess_h + settings.distance;
 
     switch (settings.direction) {
