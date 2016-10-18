@@ -11,4 +11,4 @@ $("#test1").click(function(){
     });
 
 });
-```js
+```
