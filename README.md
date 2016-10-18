@@ -15,4 +15,4 @@ $("#test1").click(function(){
 #Пример работы online
 http://sinsite.ru/2005
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+[![N|Solid](http://sinsite.ru/img/fmess.gif)](http://sinsite.ru/2005)
