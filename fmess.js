@@ -55,7 +55,7 @@ $.fn.fmess = function(options) {
 		    	mess.remove();
 		    });
 		break;
-		case "left": 
+		case "right": 
     		mess.offset({"top": t+(h/2-(mess_h/2)),"left": l+w});
 			// mess.css("margin-top", "-"+h+"px");
 		    mess.animate({
@@ -65,7 +65,7 @@ $.fn.fmess = function(options) {
 		    	mess.remove();
 		    });
 		break;
-		case "right": 
+		case "left": 
 		    		mess.offset({"top": t+(h/2-(mess_h/2)),"left": l-mess_w});
 			// mess.css("margin-top", "-"+h+"px");
 		    mess.animate({
