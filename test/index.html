@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Тест плагина быстрых сообщений</title>
+	<link rel="stylesheet" href="https://yastatic.net/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Быстрые сообщения</h1>
+		<h3>Подключение</h3>
+
+		CDN: 
+		<pre>https://rawgit.com/Siniinik/fmess/master/fmess.js</pre>
+		<a href="https://rawgit.com/Siniinik/fmess/master/fmess.js" download="fmess.js">Скачать</a>
+		<h3>Успех</h3>
+<pre>
+$("#test1").click(function(){
+	$(this).fmess({
+        text: "Текст сообщения",
+        type: "success", //тип сообщения
+        direction: "top" //возможны варианты top, right, bottom, left
+    });
+
+});
+</pre>
+
+	<div class="row">
+		<div class="col-md-3">
+			<button class="btn btn-success test_btn" data-direction="top" data-type="success">Сообщение сверху (кликнуть)</button>
+		</div>
+		<div class="col-md-3">
+			<button class="btn btn-info test_btn" data-direction="rigth" data-type="info">Сообщение справа (кликнуть)</button>				
+		</div>
+		<div class="col-md-3">
+			<button class="btn btn-warning test_btn" data-direction="bottom" data-type="warning">Сообщение снизу (кликнуть)</button>		
+		</div>
+		<div class="col-md-3">
+			<button class="btn btn-danger test_btn" data-direction="left" data-type="danger">Сообщение слева (кликнуть)</button>		
+		</div>
+	</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src="https://rawgit.com/Siniinik/fmess/master/fmess.js"></script>
+	<script>
+		$(function() {
+			$(".test_btn").click(function(){
+				$(this).fmess({
+	                text: "Текст сообщения",
+	                type: $(this).attr("data-type"),
+	                direction: $(this).attr("data-direction")
+	            });
+
+			});
+		});
+	</script>
+</body>
+</html>
