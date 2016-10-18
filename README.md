@@ -1,6 +1,7 @@
 # fmess
 Fast Message (JQuery  + Bootstrap) - Плагин быстрых сообщений
 
+```js
 $("#test1").click(function(){
 	$(this).fmess({
         text: "Текст сообщения",
@@ -10,3 +11,4 @@ $("#test1").click(function(){
     });
 
 });
+```js
