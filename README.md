@@ -14,8 +14,5 @@ $("#test1").click(function(){
 });
 ```
 
-#Примера работы Demo
-http://sinsite.ru/2005
 
-[![N|Solid](http://sinsite.ru/img/fmess.gif)](http://sinsite.ru/2005)
 
